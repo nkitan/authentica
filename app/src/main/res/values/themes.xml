@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <!-- Base application theme. -->
+        <style name="AppTheme" parent="Theme.MaterialComponents.DayNight">
+            <!-- Customize your theme here. -->
+            <item name="colorPrimary">@color/colorPrimary_light</item>
+            <item name="android:statusBarColor">@color/colorPrimary_light</item>
+            <item name="colorPrimaryDark">@color/colorPrimaryDark_light</item>
+            <item name="colorAccent">@color/colorAccent_light</item>
+            <item name="background">@color/background_light</item>
+            <item name="backgroundTint">@color/backgroundtint_light</item>
+            <item name="tint">@color/tint_light</item>
+        </style>
+
+        <style name="AppTheme.NoActionBar" parent="AppTheme">
+            <item name="windowActionBar">false</item>
+            <item name="windowNoTitle">true</item>
+            <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+            <item name="android:statusBarColor">@color/colorPrimary_light</item>
+            <item name="windowActionModeOverlay">true</item>
+        </style>    
+</resources>
