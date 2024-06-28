@@ -31,8 +31,9 @@ To add a new account to the app, you can either scan a QR code or manually enter
 * To delete an account, simply swipe left on the account that you want to delete and tap the "Delete" button.
   
 ## Security  
-This two-factor authentication app is designed to be secure and protect your accounts. The app uses the TOTP algorithm to generate one-time codes, which is a widely-used and secure algorithm for two-factor authentication.
+This two-factor authentication app is designed to be a secure way to protect your online accounts using a second layer of authentication in the form of a locally generated OTP. 
+The app uses the widely used TOTP algorithm to generate one-time codes.
 
-The app also uses encryption to protect your accounts and their secret keys. The secret keys are stored in the app's encrypted database, which is protected by a master password that you create when you first use the app.  
+The app uses military grade encryption to protect your accounts. The secret keys are stored in the app's encrypted database which is protected by a master password that you create when you first use the app.  
   
 ![build workflow status](https://github.com/nkitan/authentica/actions/workflows/gradle.yml/badge.svg)
